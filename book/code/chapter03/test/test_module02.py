@@ -15,6 +15,7 @@ class TestClass02(unittest.TestCase):
     def test_case01(self):
         print("\nRunning Test Method : " + inspect.stack()[0][3])
 
+
 """
     A saída foi em ordem alfabética:
         test_case01 (__main__.TestClass02) ... 
