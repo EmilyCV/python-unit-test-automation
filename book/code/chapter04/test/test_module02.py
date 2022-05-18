@@ -1,7 +1,4 @@
-import collections
 from mypackage.mymathlib import *
-
-collections.Callable = collections.abc.Callable
 
 
 class TestClass01:

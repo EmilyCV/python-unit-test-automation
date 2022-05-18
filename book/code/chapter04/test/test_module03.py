@@ -1,12 +1,11 @@
-import collections
 from mypackage.mymathlib import *
 
-collections.Callable = collections.abc.Callable
 math_obj = 0
 
 """
     nosetests -vs .\book\code\chapter04\test\test_module03.py
 """
+
 
 def setUpModule():
     """chamado uma vez, antes de qualquer outra coisa neste módulo"""
