@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="1" skipped="0" tests="15" time="0.268" timestamp="2022-05-20T10:11:32.365862" hostname="">
+        <testcase classname="book.code.chapter05.test.test_module01" name="test_case01" time="0.002" />
+        <testcase classname="book.code.chapter05.test.test_module02.TestClass01" name="test_case01" time="0.001" />
+        <testcase classname="book.code.chapter05.test.test_module02.TestClass01" name="test_case02" time="0.001" />
+        <testcase classname="book.code.chapter05.test.test_module03" name="test_case01" time="0.005" />
+        <testcase classname="book.code.chapter05.test.test_module03" name="test_case02" time="0.005" />
+        <testcase classname="book.code.chapter05.test.test_module03.TestClass02" name="test_case03" time="0.006" />
+        <testcase classname="book.code.chapter05.test.test_module03.TestClass02" name="test_case04" time="0.006" />
+        <testcase classname="book.code.chapter05.test.test_module04" name="test_case01" time="0.003" />
+        <testcase classname="book.code.chapter05.test.test_module05" name="test_case01" time="0.003" />
+        <testcase classname="book.code.chapter05.test.test_module06.TestClass03" name="test_case01" time="0.004" />
+        <testcase classname="book.code.chapter05.test.test_module06.TestClass03" name="test_case02" time="0.003" />
+        <testcase classname="book.code.chapter05.test.test_module07" name="test_case01" time="0.005" />
+        <testcase classname="book.code.chapter05.test.test_module08" name="test_case01" time="0.006" />
+        <testcase classname="book.code.chapter05.test.test_module09" name="test_case01" time="0.002" />
+        <testcase classname="book.code.chapter05.test.test_module09" name="test_case02" time="0.003">
+            <failure message="Failed: DID NOT RAISE &lt;class 'Exception'&gt;">def test_case02():
+&gt;       with pytest.raises(Exception):
+E       Failed: DID NOT RAISE &lt;class 'Exception'&gt;
+
+book\code\chapter05\test\test_module09.py:15: Failed</failure>
+        </testcase>
+    </testsuite>
+</testsuites>
