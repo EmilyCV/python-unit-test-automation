@@ -1,0 +1,6 @@
+• Os nomes de todos os módulos de teste (os arquivos de teste) devem começar com test_
+• Os nomes de todas as funções de teste devem começar com test_
+• Os nomes de todas as classes de teste devem começar com Teste
+• Os nomes de todos os métodos de teste devem começar com test_
+• Agrupe todos os testes em classes e pacotes de teste
+• Todos os pacotes com código de teste devem ter um arquivo __init__.py

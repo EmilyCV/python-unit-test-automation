@@ -1,0 +1,4 @@
+Capítulo 2 - Docstrings para escrever doctests.
+Capítulo 3 - Estrutura de automação de teste incluída no Python, unittest.
+Capítulo 4 - Estrutura de automação de teste nose e substituição para o nose2.
+Capítulo 5 - Pytest - por que é melhor do que unittest e nose.
